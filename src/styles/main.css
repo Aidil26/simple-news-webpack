@@ -1,0 +1,59 @@
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2px;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+h2 {
+    text-shadow: 2px 5px 5px rgb(199, 199, 199);
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    box-shadow: 0 4px 8px 0 rgba(179, 238, 248, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .grid-container {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+} */

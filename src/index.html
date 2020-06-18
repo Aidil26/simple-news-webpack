@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Read News</title>
+    <!--    Perlu ditambahkan! karena untuk membaca styling bootstrap secara global -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand text-info">
+            <h2>Read News</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-item nav-link"
+                id="bbcNews"
+                href="#"
+                tabindex="-50"
+                aria-disabled="true"
+                >BBC News <span class="sr-only">(current)</span></a
+              >
+              <a
+                class="nav-item nav-link"
+                id="bbcSport"
+                href="#"
+                tabindex="-50"
+                aria-disabled="true"
+                >BBC Sport</a
+              >
+              <a
+                class="nav-item nav-link"
+                id="germanyNews"
+                href="#"
+                tabindex="-50"
+                aria-disabled="true"
+                >Germany News</a
+              >
+              <a
+                class="nav-item nav-link"
+                href="https://www.dicoding.com/users/110278"
+                tabindex="-50"
+                aria-disabled="true"
+                ><i><b>info</b></i></a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <br />
+    <br />
+    <br />
+
+    <main class="container">
+      <news-list></news-list>
+    </main>
+  </body>
+</html>
